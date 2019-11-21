@@ -1,0 +1,50 @@
+<tecorb.hafijur.calendar.view.HRCalendarCard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_padding_small">
+    
+    <TextView
+        android:id="@+id/card_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/helveticaregular"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/card_days"
+        android:layout_below="@id/card_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/widget_margin_small"
+        android:paddingBottom="@dimen/widget_margin_small"
+        android:orientation="horizontal">
+        <TextView style="@style/CalendarCard.Day"/>
+        <TextView style="@style/CalendarCard.Day"/>
+        <TextView style="@style/CalendarCard.Day"/>
+        <TextView style="@style/CalendarCard.Day"/>
+        <TextView style="@style/CalendarCard.Day"/>
+        <TextView style="@style/CalendarCard.Day"/>
+        <TextView style="@style/CalendarCard.Day"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card_grid"
+        android:layout_below="@id/card_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/calendar_card_row"/>
+        <include layout="@layout/calendar_card_row"/>
+        <include layout="@layout/calendar_card_row"/>
+        <include layout="@layout/calendar_card_row"/>
+        <include layout="@layout/calendar_card_row"/>
+        <include layout="@layout/calendar_card_row"/>
+    </LinearLayout>
+
+</tecorb.hafijur.calendar.view.HRCalendarCard>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Reference http://www.google.com/design/spec/style/color.html-->
+    <!--100 = thin-->
+    <!--200 = extra-light-->
+    <!--300 = light-->
+    <!--400 = normal, book-->
+    <!--500 = medium-->
+    <!--600 = demi-bold-->
+    <!--700 = bold-->
+    <!--800 = heavy-->
+    <!--900 = black-->
+    <color name="indigo_medium">#3F51B5</color>
+    <color name="indigo_black">#1A237E</color>
+
+    <color name="grey_extra_light">#EEEEEE</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey_normal">#BDBDBD</color>
+    <color name="grey_black">#212121</color>
+
+    <color name="colorPrimary">#f5f5f5</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="color_gray_line">#F2F4F4</color>
+    <color name="color_white">#FFFFFF</color>
+</resources>

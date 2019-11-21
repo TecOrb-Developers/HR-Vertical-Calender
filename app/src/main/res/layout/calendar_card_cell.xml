@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tecorb.hafijur.calendar.view.HRCalendarCell
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:fontFamily="@font/helveticaregular"
+    android:layout_height="match_parent"
+    tools:text="12"
+    style="@style/CalendarCard.CellTextView" />

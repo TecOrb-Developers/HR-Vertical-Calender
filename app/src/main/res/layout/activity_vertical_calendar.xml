@@ -1,0 +1,133 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="tecorb.hafijur.calendar.activity.ActivityVerticalCalendar">
+
+        <LinearLayout
+            android:background="@drawable/background_drawable"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HR Vertical Calendar"
+                android:textColor="@color/colorAccent"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:fontFamily="@font/helveticabold"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_drawable"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/card_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widget_margin_small"
+                android:paddingBottom="@dimen/widget_margin_small">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helveticaregular"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sun"
+                    
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helveticaregular"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Mon"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/helveticaregular"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tue"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helveticaregular"
+                    android:gravity="center"
+                    android:text="Wed"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Thu"
+                    android:fontFamily="@font/helveticaregular"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helveticaregular"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fri"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helveticaregular"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sat"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/calendar_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"/>
+
+    </LinearLayout>
+</layout>
